@@ -1,11 +1,20 @@
 html {
-  background-color: red;
+  background: linear-gradient(to bottom left, rgb(107, 245, 95), rgb(65, 182, 19))
 }
 
 body {
-  background-color: red !important;
+  background-color: transparent !important;
 }
 
 app-root {
   background-color: red;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+* {
+  box-sizing: border-box !important;
 }
