@@ -1,0 +1,36 @@
+.row {
+  background-color: #fff;
+}
+
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.tile {
+  border: 1px dotted black;
+}
+
+.links-section {
+    height: 40px;
+    display: flex;
+  .link {
+    border-top: 1px dotted black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    &:hover {
+      background-color: rgb(196, 196, 196);
+      color: rgb(0, 0, 0);
+      transition: background-color, color, .2s ease-in-out;
+    }
+    &:first-of-type {
+      border-right: 1px dotted black;
+    }
+  }
+}

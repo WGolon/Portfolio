@@ -6,6 +6,12 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { RouterModule, Routes } from '@angular/router';
+
+export const appRoutes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'portfolio', component: PortfolioComponent},
+]
 
 @NgModule({
   declarations: [
@@ -16,7 +22,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(appRoutes),
   ],
   providers: [],
   bootstrap: [AppComponent]
