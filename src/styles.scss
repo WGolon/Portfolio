@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
 html {
-  background: linear-gradient(to bottom left, rgb(107, 245, 95), rgb(65, 182, 19))
+  background: url('./assets/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 body {
@@ -9,6 +15,10 @@ body {
 app-root {
   background-color: red;
 }
+  h1, h2, h3, h4 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+  }
 
 .nopadding {
   padding: 0 !important;

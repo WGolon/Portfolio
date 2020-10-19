@@ -1,3 +1,5 @@
+
+
 .container  {
   max-width: 1200px;
   min-height: calc(100vh - 10px);
@@ -22,3 +24,17 @@
   min-height: 40px;
   background-color: #1d1d1d;
 }
+
+.footer {
+  .row {
+    .signature {
+      display: flex;
+      align-items: center;
+      margin:0;
+      color: #fff;
+      vertical-align: middle;
+    }
+  }
+}
+
+
