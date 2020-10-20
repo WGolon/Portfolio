@@ -9,7 +9,6 @@ $tile-3: #3f3f3f;
 }
 
 .main-info {
-  background-color: rgb(59, 77, 238);
   color: #fff;
 }
 
@@ -25,6 +24,15 @@ $tile-3: #3f3f3f;
 .dev-position {
   background-color: $header-2;
 }
+
+.navigation-boxes {
+    background-color: $tile-3;
+}
+
+.my-name {
+  width: 95%;
+}
+
 
 
 
@@ -87,7 +95,7 @@ $tile-3: #3f3f3f;
 }
 
 
-.navigation .small-box {
+.navigation-boxes .small-box {
   &:nth-child(1) {
     background-color: $tile-1;
   }
@@ -113,6 +121,6 @@ $tile-3: #3f3f3f;
       transform: translateY(0);
   }
   50% {
-      transform: translateY(-10px);
+      transform: translateY(-8px);
   }
 }
